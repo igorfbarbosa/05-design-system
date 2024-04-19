@@ -1,4 +1,3 @@
-import { MultiStep } from '../..'
 import { Label, MultiStepContainer, Step, Steps } from './styles'
 
 export interface MultiStepProps {
