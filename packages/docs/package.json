@@ -4,11 +4,9 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "build-vite": "tsc && vite build",
-    "build": "storybook build",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "dev": "storybook dev -p 6006"
+    "dev": "storybook dev -p 6006",
+    "deploy-storybook": "storybook-to-ghpages",
+    "build": "storybook build"
   },
   "dependencies": {
     "@ignite-ui/eslint-config": "*",
@@ -29,6 +27,7 @@
     "@storybook/blocks": "^7.6.17",
     "@storybook/react": "^7.6.17",
     "@storybook/react-vite": "^7.6.17",
+    "@storybook/storybook-deployer": "^2.8.16",
     "@storybook/test": "^7.6.17",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
