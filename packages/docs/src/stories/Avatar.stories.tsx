@@ -8,6 +8,13 @@ export default {
     src: 'https://pbs.twimg.com/profile_images/1531426288812146688/t8uRVjj4_400x400.jpg',
     alt: 'Igor Barbosa',
   },
+  argTypes: {
+    src: {
+      control: {
+        type: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
